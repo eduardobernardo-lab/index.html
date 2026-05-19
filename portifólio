@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Eduardo Bernardo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000000, #3b82f6,BLACK);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.95;
+        }
+
+        main {
+            max-width: 880px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 28px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            position: relative;
+            
+            /* Bordas bonitas */
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 12px 25px;
+            background: linear-gradient(to right, #002c58,#3b82f6,#002c58);
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(to right, #3b82f6, #1e40af);
+            border-radius: 2px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+            font-size: 17.5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #01449c;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Eduardo Bernardo da Silva</h1>
+        <p>Estudante do curso de Sistemas de Informação</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>
+                Tenho 19 anos e atualmente sou estudante de Sistemas de Informação,
+                com interesse em desenvolvimento web e tecnologia.
+            </p>
+        </section>
+
+        <section>
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li>Auxiliar Administrativo</li>
+                <li>Frente de Caixa em Mercado</li>
+                <li>Lavador e Polidor de Automóveis</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Comunicação</li>
+                <li>JA FUI TOP 43 MUNDIAL DE COD MOBILE POR CERCA DE 1 HORA</li>
+                <li>Disponibilidade</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <P>EDUARDO BERNARDO DA SILVA</P>
+    </footer>
+
+</body>
+</html>
